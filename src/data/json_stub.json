@@ -1,54 +1,58 @@
 {
     "basics": {
-        "name": "John Doe",
-        "label": "Programmer",
-        "picture": "",
-        "email": "john.doe@mail.com",
-        "phone": "(912) 555-4321",
-        "website": "http://johndoe.com",
-        "summary": "A summary of John Doe...",
+        "name": "Sebastian Duque",
+        "label": "Software Engineer",
+        "picture": "https://github.com/sebastiandg7.png",
+        "email": "sebastiandg7@gmail.com",
+        "phone": null,
+        "website": "https://sebastiandg.com",
+        "summary": "A summary of Sebastian Duque...",
         "location": {
-            "address": "2712 Broadway St",
-            "postalCode": "CA 94115",
-            "city": "San Francisco",
-            "countryCode": "US",
-            "region": "California"
+            "address": "",
+            "postalCode": "",
+            "city": "Cali",
+            "countryCode": "CO",
+            "region": "Valle Del Cauca",
+            "name": "Hometown"
         },
-        "profiles": [
-            {
-                "network": "Twitter",
-                "username": "john",
-                "url": "http://twitter.com/john"
-            }
-        ]
+        "profiles": [{ "network": "Twitter", "username": "sebastiandg7", "url": "https://twitter.com/sebastiandg7" }]
     },
     "work": [
         {
-            "name": "Samsung Engineering",
-            "position": "3D Cad Engineer",
-            "website": "http://company.com",
-            "startDate": "2014-01-01",
-            "summary": "Description...",
-            "location": "Paris, France",
-            "highlights": ["Started the company"]
+            "name": "Trafilea",
+            "position": "Software Engineer",
+            "website": "https://trafilea.com",
+            "startDate": "2020-04-20",
+            "summary": "Description of your role performed during this job ",
+            "location": "Remote",
+            "highlights": ["Started open-source "],
+            "id": "220a156a-211d-423b-be1e-103f10dae0dd",
+            "place": { "name": "Remote" },
+            "stillEmployed": true,
+            "index": 0
         },
         {
-            "name": "What a nice office",
-            "position": "President",
-            "website": "http://company.com",
-            "startDate": "2013-01-01",
-            "endDate": "2014-01-01",
-            "summary": "Description...",
-            "location": "Paris, France",
-            "highlights": ["Started the company"]
+            "index": 1,
+            "id": "2898bc70-d54e-4fcd-b2a8-448974912096",
+            "name": "Tandi",
+            "position": "Co-Founder  & Lead Developer",
+            "place": { "name": "Cali, Colombia" },
+            "startDate": "2019-10-26",
+            "endDate": "2020-03-01",
+            "summary": "Design, lead, build, test and deploy Tandi’s main applications for market validation (MVPs). Worked with Spring Boot/NestJS for backend applications and Angular/NativeScript for web and mobile clients.",
+            "location": "Cali, Colombia",
+            "stillEmployed": false
         },
         {
-            "name": "What a nice experience",
-            "position": "Lead dev",
-            "website": "http://company.com",
-            "summary": "Description...",
-            "location": "Paris, France",
-            "highlights": ["Started the company"]
+            "index": 2,
+            "id": "fafd6651-83fb-4258-b79c-223f280af2b5",
+            "name": "Manglu",
+            "position": "CTO & Software Engineer",
+            "place": { "name": "Colombia" },
+            "startDate": "2018-10-26",
+            "endDate": "2019-11-01",
+            "summary": "Closely worked with our clients to identify the best solutions for their needs, taking into account business interests and technical aspects regarding integrations with existing enterprise systems . Also worked in the development of a contact center feature extensibility project highly integrated with the PureCloud by Genesis cloud solution.",
+            "location": "Colombia"
         }
     ],
     "volunteer": [
@@ -63,32 +67,16 @@
     ],
     "education": [
         {
-            "institution": "ISEN",
-            "area": "Software Development",
+            "institution": "Icesi University",
+            "area": "Telematics Engineering",
             "studyType": "Engineer Degree",
-            "startDate": "2011-01-01",
-            "endDate": "2013-01-01",
-            "gpa": "4.0",
-            "courses": ["DB1101 - Basic SQL"]
-        },
-        {
-            "institution": "Université d'artois",
-            "area": "",
-            "studyType": "",
-            "startDate": "2011-01-01",
-            "endDate": "",
+            "startDate": "2013-06-20",
+            "endDate": "2018-07-01",
             "gpa": "4.0",
             "courses": ["DB1101 - Basic SQL"]
         }
     ],
-    "awards": [
-        {
-            "title": "Award",
-            "date": "2014-11-01",
-            "awarder": "Company",
-            "summary": "There is no spoon."
-        }
-    ],
+    "awards": [{ "title": "Award", "date": "2014-11-01", "awarder": "Company", "summary": "There is no spoon." }],
     "publications": [
         {
             "name": "Publication",
@@ -100,143 +88,151 @@
     ],
     "skills": [
         {
-            "name": "React",
-            "level": "Master",
-            "value": 100,
-            "keywords": ["HTML", "CSS", "Javascript"]
+            "name": "Typescript",
+            "index": 0,
+            "value": 95,
+            "keywords": ["Javascript", "Node", "NPM", "TS"],
+            "id": "edd3ee09-6ae2-423f-93ec-16e27005f354"
         },
         {
             "name": "Angular",
             "level": "Master",
+            "value": 94,
+            "keywords": ["HTML", "CSS", "Javascript", "Web"],
+            "index": 1,
+            "id": "83fe1414-e214-45d3-b381-f3404ecdc2ed"
+        },
+        {
+            "name": "Nest",
+            "index": 2,
+            "value": 90,
+            "keywords": ["Node", "NodeJS", "Express"],
+            "id": "13a32fac-dc81-4f4b-9f11-a2c5b7e25f1c"
+        },
+        {
+            "name": "Nx Workspaces",
+            "index": 3,
+            "value": 100,
+            "keywords": ["Monorepo", "Devtools", "Code sharing", "Trunk based development"],
+            "id": "5d5b6eb2-40f6-4028-a0d8-86bead6aebaa"
+        },
+        { "name": "Spring Boot", "index": 4, "value": 50, "id": "896af80c-5050-4bd7-923a-3df617e00eed" },
+        {
+            "name": "React",
+            "level": "Master",
             "value": 80,
-            "keywords": ["HTML", "CSS", "Javascript"]
+            "keywords": ["HTML", "CSS", "Javascript", "Web"],
+            "index": 5,
+            "id": "b17e359d-b504-4141-a124-9880a368107d"
         },
         {
-            "name": "NodeJS",
-            "level": "Master",
-            "value": 40,
-            "keywords": ["HTML", "CSS", "Javascript"]
+            "name": "Java",
+            "index": 6,
+            "value": 90,
+            "keywords": ["Java", "JVM", "Spring", "Maven", "Gradle"],
+            "id": "8f3752e6-d48f-4e44-9d9f-a6ad9549b6f2"
         },
         {
-            "name": "Firebase",
-            "level": "Master",
-            "value": 60,
-            "keywords": ["HTML", "CSS", "Javascript"]
+            "name": "Webpack",
+            "index": 7,
+            "value": 85,
+            "keywords": ["bundler", "Node", "NPM", "web"],
+            "id": "2aef24e7-78a9-4bef-b290-8f8df9f41532"
         },
         {
-            "name": "Gmail",
-            "level": "Master",
+            "name": "Docker",
+            "index": 8,
+            "value": 70,
+            "keywords": ["Containers", "DevOps", "CI/CD", "K8S"],
+            "id": "bd6ac456-f6c9-4820-8f8a-3f34a8e82aaf"
+        },
+        {
+            "name": "Go",
+            "index": 9,
             "value": 20,
-            "keywords": ["HTML", "CSS", "Javascript"]
+            "keywords": ["Concurrent", "Golang"],
+            "id": "63a1d2d0-d437-49c8-8a99-a464e6447820"
         },
         {
-            "name": "K8S",
-            "level": "Master",
-            "value": 80,
-            "keywords": ["HTML", "CSS", "Javascript"]
+            "name": "Amazon Web Services",
+            "index": 10,
+            "value": 70,
+            "keywords": ["Infraestructure", "CI/CD", "AWS", "DevOps"],
+            "id": "6f4c2e78-9054-42c7-9322-fada5d596016"
+        },
+        {
+            "name": "RxJS",
+            "index": 11,
+            "value": 90,
+            "keywords": ["Reactive Programming", "NgRx", "Reactive Extensions", "Observables"],
+            "id": "c52176cf-55c3-45c0-968b-843c6522457b"
+        },
+        {
+            "name": "Jest",
+            "index": 12,
+            "value": 65,
+            "keywords": ["Unit Testing", "Code Quality", "Testing Automation", "Coverage"],
+            "id": "be7a263b-8bca-443e-a13b-a5b8e18966ff"
         }
     ],
-    "languages": [{ "language": "English", "value": 100, "fluency": "Native speaker" }, { "language": "Italien", "value": 15, "fluency": "Native speaker" } ],
+    "languages": [
+        {
+            "language": "Spanish",
+            "value": 100,
+            "fluency": "Native speaker",
+            "id": "bc870316-06b3-4b44-b54e-1e5b11cf499e",
+            "index": 0
+        },
+        {
+            "language": "English",
+            "value": 85,
+            "fluency": "Upper-Intermediate",
+            "id": "27c92ef5-8de9-4a15-96dd-cd60c8bb9981",
+            "index": 1
+        }
+    ],
     "interests": [
         {
-            "name": "France europe gif by nike football",
-            "gifUrl": "https://media1.giphy.com/media/3oD3YooLLYg0AfOPdK/giphy-downsized.gif?cid=f7fb5bbaegu1ofs48lty41dyowqsfo0wq9qq8h4czot7rwm1&rid=giphy-downsized.gif",
+            "name": "SCUBA Diving",
+            "gifUrl": "https://media.giphy.com/media/hRCamfVuSDVU2U4MgP/giphy.gif",
             "id": "afa5739f-f868-464e-a1aa-18f5a3ff4e2b",
             "gifUser": {
-                "name": "Nike Football",
-                "profileUrl": "https://giphy.com/nikefootball/",
+                "name": "Project AWARE",
+                "profileUrl": "https://giphy.com/ProjectAWARE",
+                "isVerified": false,
+                "profileAvatarUrl": "https://media.giphy.com/avatars/ProjectAWARE/3T7nMtGDZcvZ/200h.jpg"
+            },
+            "index": 0
+        },
+        {
+            "name": "MTB",
+            "gifUrl": "https://media.giphy.com/media/LOQGReulm1W3czZsjX/giphy.gif",
+            "gifUser": {
+                "name": "Outside TV",
+                "profileUrl": "https://giphy.com/outsidetv/",
                 "isVerified": true,
-                "profileAvatarUrl": "https://media1.giphy.com/avatars/nikefootball/vPyZcrShcXY8.jpg"
-            }
-        },
-        {
-            "name": "Burritos",
-            "gifUrl": "https://media.giphy.com/media/d8WjGORtSEWqc/giphy.gif"
-        },
-
-        {
-            "name": "Tendresse",
-            "gifUrl": "https://media.giphy.com/media/EehnUUCH2JcwU/giphy.gif"
-        },
-        {
-            "name": "Something",
-            "gifUrl": "https://media.giphy.com/media/xTiTnIuKP1BLsMTerS/giphy.gif"
-        },
-        {
-            "name": "J'aime faire de la course à pied et des randonnées en famille le weekend."
-        }
-    ],
-    "references": [{ "name": "Jane Doe", "reference": "Reference..." }],
-    "projects": [
-        {
-            "index": 5,
-            "date": { "month": 11, "year": 2019 },
-            "description": "Moteur de recherche via le nom de films réalisée avec ReactJs:\nRequête à l'Api rest avec Fetch, utilisation des hooks.\n",
-            "id": "7f1f4257-e5db-477d-aa5f-ababe0ab0b12",
-            "images": [{ "url": "https://cdn.filestackcontent.com/aBOkTTkCQ66VOHUy0q8L" }],
-            "link": "https://lovely-movie.netlify.app/",
-            "name": "Lovely Movie",
-            "endDate": "2019-12-01"
+                "profileAvatarUrl": "https://media.giphy.com/avatars/OutsideTV/FJ5iSQvknocl/200h.png"
+            },
+            "id": "d35a5b68-a475-48d2-854f-0102f69c2ad0",
+            "index": 1
         },
         {
             "index": 2,
-            "date": { "month": 0, "year": 2020 },
-            "description": "Application de gestion de tâches réalisée avec ReactJs / Redux / Firebase :\nCréation de composants avec Styled Components, gestions de formulaires et validation des entrées, création d'une authentification, récupération / création / modification / suppression de tâches.",
-            "id": "af4181b1-8955-47fb-8dd9-17c6974335d3",
-            "images": [{ "url": "https://cdn.filestackcontent.com/G2CckiqvScC9tsrvHYg4" }],
-            "link": "https://diary-todo.netlify.app/",
-            "name": "Journal d'une Todo",
-            "endDate": "2020-01-01"
-        },
-        {
-            "index": 4,
-            "date": { "month": 5, "year": 2020 },
-            "description": "Blog réalisé en Java JEE et Spring, avec création d'une base de données MySQL et connectée avec JDBC.",
-            "id": "af8c78c3-f7c6-4f3b-9c32-9d37a9032e14",
-            "images": [{ "url": "https://cdn.filestackcontent.com/rPp0wj4S2GhTr0qTcqOI" }],
-            "link": "https://btz-java-2003-pjt1-blog.javarover.wilders.dev/",
-            "name": "Charlie's Angels blog",
-            "endDate": "2020-06-01"
-        },
-        {
-            "index": 3,
-            "date": { "month": 5, "year": 2020 },
-            "description": "** Pensée uniquement pour téléphone **\nApplication permettant de connaître la météo actuelle d'une ville. Réalisée afin de découvrir VueJs.",
-            "id": "c64e6ca1-6300-4d7f-a305-8cfb7c99a9e6",
-            "images": [{ "url": "https://cdn.filestackcontent.com/w5oskUihSiYCxekOn9Ba" }],
-            "link": "https://appli-meteo.netlify.app/",
-            "name": "Application Météo",
-            "endDate": "2020-06-01"
-        },
-        {
-            "index": 1,
-            "date": { "month": 7, "year": 2020 },
-            "description": "Premières armes avec Angular et Typescript :\nMise en place d'un environnement Angular, développement d'une authentification avec Firebase, gestion des formulaires, utilisation d'observable avec RxJs.\n",
-            "id": "d9f7ca32-a40a-418e-affb-317bfb4f520e",
-            "images": [{ "url": "https://cdn.filestackcontent.com/NVOhKNFQR9OQ3jtkIyHi" }],
-            "link": "https://my-connected-library.netlify.app/",
-            "name": "Librairie Connectée",
-            "endDate": "2020-08-01"
-        },
-        {
-            "index": 6,
-            "date": { "month": 4, "year": 2019 },
-            "description": "Moteur de recherche basé sur le jeu World of Warcraft, premiers pas avec ReatJs.\nRequête à l'API Raider.io avec Axios.",
-            "id": "dbe2a8d9-dd9d-443d-8ae4-7a8e0b7939f5",
-            "images": [{ "url": "https://cdn.filestackcontent.com/FSysoX0ATvqy2BFvLF21" }],
-            "link": "https://wow-search-engine.netlify.app/",
-            "name": "WoW Search",
-            "endDate": "2019-05-01"
-        },
+            "id": "3bc6608e-d476-49df-ab86-b9f3703702c6",
+            "gifUrl": "https://media.giphy.com/media/MdA16VIoXKKxNE8Stk/giphy.gif",
+            "name": "Coding"
+        }
+    ],
+    "projects": [
         {
             "index": 0,
-            "date": { "month": 6, "year": 2020 },
-            "description": "Application réalisée en 24h (challenge de formation) avec Java JEE et Spring:\nGestion d’un CRUD, création d'une API Rest, ajout d'un environnement de production avec une base de données PostgreSQL hébergée sur Heroku.",
+            "date": "2020-10-26T16:58:08.595Z",
+            "description": "Nx-Shopify is an Nx plugin created to improve the overall development experience for Shopify theme developers. Be it you need to build a custom Shopify store theme, develop a generic theme or even maintain multiple stores/themes with shared code across them, this Nx plugin helps you power-up your development experience with dev ergonomics and web performance in mind.",
             "id": "ffb8a4f2-24e6-44ef-bbe7-0593b86d40be",
-            "images": [{ "url": "https://cdn.filestackcontent.com/7XpHKtFTC2VynppurrK5" }],
-            "link": "https://your-todos-list.herokuapp.com/",
-            "name": "Your Todo List",
-            "endDate": "2020-07-01"
+            "images": [],
+            "link": "https://trafilea.github.io/nx-shopify/",
+            "name": "Nx-Shopify",
+            "endDate": "2020-10-26"
         }
     ],
     "specific": {
@@ -245,51 +241,91 @@
             "personalDescription": "This is a longer description of me, of my backstory, my backyard, my backfire, my backend, my frontend and my friends."
         },
         "dreamJob": {
-            "locations": [
-                { "name": "Valenciennes, France" },
-                { "name": "Lille, France" },
-                { "name": "Paris,France" }
-            ],
-            "remoteFrequency": "regularly"
-        },
-        "currentJob": {
-            "issues": { "boring_management": true, "boring_team": true }
+            "locations": [{ "name": "Cali, Colombia", "id": "9837d2cf-7929-483d-92fa-9a5940110870" }],
+            "remoteFrequency": "fullTime",
+            "perks": {
+                "training": true,
+                "salary": true,
+                "mood": true,
+                "challenge": true,
+                "work_hours": true,
+                "responsabilities": true,
+                "others": null,
+                "perks": true
+            }
         },
         "education": { "studiesLevel": 5 },
         "work": {
             "contractTypes": ["permanent"],
-            "codingYears": 7,
-            "codingReason": "J'ai commencé à coder sur Amstrad dans ma cave et je n'ai jamais arrêté depuis",
-            "searchState": "activelySearching",
+            "codingYears": 8,
+            "codingReason": "Coding is just a tool that allows me to use the power of computing to make all the ideas and solutions I come across, when facing with challenges that I love solving, into reality.",
+            "searchState": "openOpportunities",
             "experienceYears": 0,
-            "codeExperienceYears": 1,
-            "otherExperienceYears": 1
+            "codeExperienceYears": 5,
+            "otherExperienceYears": 6
         },
-        "sound": {
-            "embedUrl": "https://open.spotify.com/embed/playlist/37i9dQZF1DWWl7MndYYxge"
-        },
-        "interestedBy": "Angular, la blochain et les chatons."
+        "sound": { "embedUrl": "https://open.spotify.com/embed/playlist/37i9dQZF1DWWl7MndYYxge" },
+        "interestedBy": "Open-source software, software architecture, financial education, cryptos and how to cook better!"
     },
     "resumeCustomization": {
         "imageHeader": {
-            "url": "https://cdn.filestackcontent.com/8I2wVnCRTFxypXRYLRsp",
+            "url": "https://images.unsplash.com/photo-1552508744-1696d4464960?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
             "alt": "Default Banner"
         },
         "cardsOrder": [
             { "type": "basics", "variant": 4 },
             { "type": "projects", "variant": 4 },
             { "type": "skills", "variant": 0 },
-            { "type": "dreamjob", "variant": 4 },
-            { "type": "experiences", "variant": 4 },
-            { "type": "studies", "variant": 4 },
-            { "type": "gifs", "variant": 0 },
+            { "type": "gifs", "variant": 3 },
+            { "type": "experiences", "variant": 1 },
             { "type": "interestedBy", "variant": 3 },
-            { "type": "language", "variant": 4 },
-            { "type": "soundtrack", "variant": 4 }
+            { "type": "dreamjob", "variant": 4 },
+            { "type": "studies", "variant": 4 },
+            { "type": "language", "variant": 1 },
+            { "type": "soundtrack", "variant": 1 }
         ],
-        "fields": {
-            "work": {
-                "customDateFormat": "YYYY"
+        "fields": { "work": { "customDateFormat": "YYYY" } },
+        "theme": {
+            "palette": {
+                "primary": {
+                    "50": "#ececec",
+                    "100": "#d9d8d8",
+                    "200": "#b3b1b1",
+                    "300": "#8d8b8b",
+                    "400": "#676464",
+                    "500": "#413d3d",
+                    "600": "#343131",
+                    "700": "#272525",
+                    "800": "#1a1818",
+                    "900": "#0d0c0c",
+                    "contrastDefaultColor": "light"
+                },
+                "secondary": {
+                    "50": "#e6e6e6",
+                    "100": "#cdcccd",
+                    "200": "#9b999b",
+                    "300": "#686668",
+                    "400": "#363336",
+                    "500": "#040004",
+                    "600": "#030003",
+                    "700": "#020002",
+                    "800": "#020002",
+                    "900": "#010001",
+                    "contrastDefaultColor": "light"
+                },
+                "tertiary": {
+                    "50": "#faffe6",
+                    "100": "#f4ffcc",
+                    "200": "#e9ff99",
+                    "300": "#deff66",
+                    "400": "#d3ff33",
+                    "500": "#c8ff00",
+                    "600": "#a0cc00",
+                    "700": "#789900",
+                    "800": "#506600",
+                    "900": "#283300",
+                    "contrastDefaultColor": "light"
+                }
             }
         }
     }
